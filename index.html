@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <title>Example</title>
+    <title>Example Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <section class="top">
-      <header>
+    <div class="landing">
+      <header class="header">
         <h1 class="logo">Header Logo</h1>
         <ul class="links">
           <li><a href="#">header link one</a></li>
@@ -20,14 +20,16 @@
         </ul>
       </header>
       <section class="hero">
-        <div>
-          <h1 class="hero-title">This website is awesome</h1>
-          <p class="hero-text">This website has some subtext that goes here under the main title. It's a similar font and the color is a lower contrast</p>
-          <button class="hero-btn">Sign up</button>
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">This website is awesome</h1>
+            <p class="hero-text">This website has some subtext that goes here under the main title. It's a similar font and the color is lower contrast</p>
+            <button class="hero-btn">Sign up</button>
+          </div>
+          <img class="hero-img" src="https://images.pexels.com/photos/32715940/pexels-photo-32715940.jpeg" alt="placeholder image">
         </div>
-        <img class="hero-img" src="https://images.pexels.com/photos/32715940/pexels-photo-32715940.jpeg" alt="placeholder image">
       </section>
-    </section>
+    </div>
     <section class="info">
       <h2 class="info-title">Some random information.</h2>
       <div class="item-container">
